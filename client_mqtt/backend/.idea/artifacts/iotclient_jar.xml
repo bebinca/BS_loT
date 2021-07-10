@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="iotclient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/iotclient_jar</output-path>
+    <root id="archive" name="iotclient.jar">
+      <element id="module-output" name="iotclient" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.18/lombok-1.18.18.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.5/org.eclipse.paho.client.mqttv3-1.2.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.75/fastjson-1.2.75.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
